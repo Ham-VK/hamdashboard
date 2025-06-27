@@ -1,5 +1,5 @@
-const disableSetup = false;
-var topBarCenterText = `VA3HDL - FN04ga`;
+const disableSetup = true;
+var topBarCenterText = `VKCC`;
 
 // Grid layout
 var layout_cols = 4;
@@ -10,44 +10,20 @@ var layout_rows = 3;
 // The values are [color code, menu text, target link, scale factor, side],
 // add new lines following the structure for extra menu options. The comma at the end is important!
 var aURL = [
-  ["2196F3", "CLUBLOG", "https://clublog.org/livestream/VA3HDL", "1.7"],
-  [
-    "2196F3",
-    "CONTEST",
-    "https://www.contestcalendar.com/fivewkcal.html",
-    "1",
-  ],
+  ["2196F3", "Hamclock", "https://hamclock.ozoz.eu.org:8443/live.html", "1"],
+  ["2196F3", "CONTEST", "https://contest.run/#/", "1",],
+  ["2196F3", "RBN", "https://reversebeacon.net/main.php?zoom=1.07,149.44,2.00&rows=100&spotters=1&max_age=5,hours&spotted_call=vk&hide=distance_mi", "1",],
   ["2196F3", "DX CLUSTER", "https://dxcluster.ha8tks.hu/map/", "1"],
-  [
-    "2196F3",
-    "LIGHTNING",
-    "https://map.blitzortung.org/#3.87/36.5/-89.41",
-    "1",
-    "R",
-  ],
-  ["2196F3", "PISTAR", "http://pi-star.local/", "1.2"],
-  [
-    "2196F3",
-    "RADAR",
-    "https://weather.gc.ca/?layers=alert,radar&center=43.39961001,-78.53212031&zoom=6&alertTableFilterProv=ON",
-    "1",
-    "R"
-  ],
+  ["2196F3", "DX SUMMIT", "http://dxsummit.fi/#/", "1",],
+  ["2196F3", "DX HEAT", "https://dxheat.com/dxc/", "1"],
+  ["2196F3", "Solar Conditions", "https://solar.w5mmw.net/", "1"],
+  ["2196F3", "Prop Quest", "https://propquest.co.uk/graphs.php?type=archive", "1"], 
+  ["2196F3", "Holy CLUSTER", "https://holycluster.iarc.org/", "1", "R"],
+  ["2196F3", "Windy", "https://windy.app/map/#c=-38.2231,145.16252&z=10", "1", "R"],
   ["2196F3", "TIME.IS", "https://time.is/", "1", "R"],
-  [
-    "2196F3",
-    "WEATHER",
-    "https://openweathermap.org/weathermap?basemap=map&cities=true&layer=temperature&lat=44.0157&lon=-79.4591&zoom=5",
-    "1",
-    "R",
-  ],
-  [
-    "2196F3",
-    "WINDS",
-    "https://earth.nullschool.net/#current/wind/surface/level/orthographic=-78.79,44.09,3000",
-    "1",
-    "R",
-  ],
+  ["2196F3", "WEATHER", "https://openweathermap.org/weathermap?basemap=map&cities=true&layer=temperature&lat=-38.3158&lon=145.6952&zoom=8", "1", "R"],
+  ["2196F3", "WINDS", "https://earth.nullschool.net/#current/wind/surface/level/grid=on/equirectangular=-221.62,-29.01,1276/loc=144.946,-37.878", "1", "R"],
+  ["2196F3", "VIC EMERGENCY", "https://www.emergency.vic.gov.au/respond/", "1", "R"],
 ];
 
 // Dashboard items
@@ -57,43 +33,54 @@ var aURL = [
 // You can't add more items because there are only 12 placeholders on the dashboard
 // but you can replace the titles and the images with anything you want.
 var aIMG = [
-  ["RADAR", "https://radar.weather.gov/ridge/standard/CONUS_loop.gif"],
   [
-    "LOCAL RADAR",
-    "https://radar.weather.gov/ridge/standard/KNQA_loop.gif",
+    "MUFD",
+    "https://prop.kc2g.com/renders/current/mufd-normal-now.svg",
+  ],
+  [
+    "F0F2",
+    "https://prop.kc2g.com/renders/current/fof2-normal-now.svg",
+  ],
+  [
+    "SOLAR",
+    "https://services.swpc.noaa.gov/images/swx-overview-small.gif",
+  ],
+  [
+    "HAP Mel",
+    "https://www.sws.bom.gov.au/Images/HF%20Systems/Australasia/HAP%20Charts/Melbourne.gif",
   ],
   [
     "NOAA D-RAP",
     "https://services.swpc.noaa.gov/images/animations/d-rap/global/d-rap/latest.png",
   ],
-  [
-    "ISS POSITION",
-    "https://www.heavens-above.com/orbitdisplay.aspx?icon=iss&width=600&height=300&mode=M&satid=25544",
+  [    
+    "Solar Wind Prediction",
+    "https://services.swpc.noaa.gov/images/animations/enlil/latest.jpg",
   ],
   [
-    "SATELLITE CAN",
-    "https://cdn.star.nesdis.noaa.gov/GOES16/GLM/SECTOR/can/EXTENT3/GOES16-CAN-EXTENT3-1125x560.gif",
+    "Solar Wind ACE MAG",
+    "https://services.swpc.noaa.gov/images/ace-mag-swepam-24-hour.gif",
   ],
   [
-    "SATELLITE CGL",
-    "https://cdn.star.nesdis.noaa.gov/GOES16/GLM/SECTOR/cgl/EXTENT3/GOES16-CGL-EXTENT3-600x600.gif",
+    "SYNOPTIC",
+    "https://data.weatherzone.com.au/map-builder/synoptic/au/synoptic-au-1280x720.jpg",
   ],
   [
-    "LIGHTNING",
-    "https://images.lightningmaps.org/blitzortung/america/index.php?animation=usa",
+    "HF Propagation",
+    "https://www.hamqsl.com/solar101vhf.php",
   ],
   [
-    "LIGHTNING LOCAL",
-    "https://www.blitzortung.org/en/Images/image_b_ny.png",
+    "10m",
+    "https://img.propagation.dr2w.de/australia/10M/dr2w_animation_10M.gif",
   ],
-  ["YOUTUBE EXAMPLE", "iframe|https://www.youtube.com/embed/fzPFaXAV_2Y?autoplay=1&mute=1"],
   [
-    "WEBSITE EXAMPLE",
-    "iframe|https://globe.adsbexchange.com/?airport=YYZ",
+    "15m",
+    "https://img.propagation.dr2w.de/australia/15M/dr2w_animation_15M.gif",
   ],
-  ["VIDEO EXAMPLE", "https://himawari8.nict.go.jp/movie/720/20240611_pifd.mp4"],
-  ["HF PROPAGATION",
-    "https://www.hamqsl.com/solar101vhf.php"],
+  [
+     "20m", 
+     "https://img.propagation.dr2w.de/australia/20M/dr2w_animation_20M.gif",
+  ],
 ];
 
 // Image rotation intervals in milliseconds per tile - If the line below is commented, all tiles will be rotated every 30000 milliseconds (30s)
@@ -106,6 +93,6 @@ var tileDelay = [
 // RSS feed items
 // Structure is [feed URL, refresh interval in minutes]
 var aRSS = [
-  ["https://www.amsat.org/feed/", 60],           // Example RSS feed, refresh every 60 minutes
-  ["https://daily.hamweekly.com/atom.xml", 120], // Example Atom feed, refresh every 120 minutes
+  ["  ", 1200],           // Example RSS feed, refresh every 60 minutes
+  ["  ", 1200], // Example Atom feed, refresh every 120 minutes
   ];

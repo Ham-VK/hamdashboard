@@ -13,17 +13,12 @@ var aURL = [
   ["2196F3", "Hamclock", "https://hamclock.ozoz.eu.org:8443/live.html", "1"],
   ["2196F3", "CONTEST", "https://contest.run/#/", "1",],
   ["2196F3", "RBN", "https://reversebeacon.net/main.php?zoom=1.07,149.44,2.00&rows=100&spotters=1&max_age=5,hours&spotted_call=vk&hide=distance_mi", "1",],
-  ["2196F3", "DX CLUSTER", "https://dxcluster.ha8tks.hu/map/", "1"],
-  ["2196F3", "DX SUMMIT", "http://dxsummit.fi/#/", "1",],
   ["2196F3", "DX HEAT", "https://dxheat.com/dxc/", "1"],
   ["2196F3", "Solar Conditions", "https://solar.w5mmw.net/", "1"],
-  ["2196F3", "Prop Quest", "https://propquest.co.uk/graphs.php?type=archive", "1"], 
-  ["2196F3", "Holy CLUSTER", "https://holycluster.iarc.org/", "1", "R"],
   ["2196F3", "Windy", "https://windy.app/map/#c=-38.2231,145.16252&z=10", "1", "R"],
   ["2196F3", "TIME.IS", "https://time.is/", "1", "R"],
   ["2196F3", "WEATHER", "https://openweathermap.org/weathermap?basemap=map&cities=true&layer=temperature&lat=-38.3158&lon=145.6952&zoom=8", "1", "R"],
   ["2196F3", "WINDS", "https://earth.nullschool.net/#current/wind/surface/level/grid=on/equirectangular=-221.62,-29.01,1276/loc=144.946,-37.878", "1", "R"],
-  ["2196F3", "VIC EMERGENCY", "https://www.emergency.vic.gov.au/respond/", "1", "R"],
 ];
 
 // Dashboard items

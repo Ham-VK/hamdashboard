@@ -88,6 +88,5 @@ var tileDelay = [
 // RSS feed items
 // Structure is [feed URL, refresh interval in minutes]
 var aRSS = [
-  ["  ", 1200],           // Example RSS feed, refresh every 60 minutes
-  ["  ", 1200], // Example Atom feed, refresh every 120 minutes
+  ["WELCOME VKCC", 1200], VK3GF // Example RSS feed, refresh every 60 minutes
   ];

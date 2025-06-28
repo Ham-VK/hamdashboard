@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -1556,20 +1557,18 @@ var tileDelay = ${JSON.stringify(settings.aImages.map(item => item[2]), null, 2)
         // Preppend the default options to the menu
         aURL.unshift(
           ["add10d", "BACK", "", "1", "L"],
-          ["add10d", "BACK", "", "1", "R"],
-          ["ff9100", "Refresh", "?_=" + Date.now(), "1"],
-          ["0dd1a7", "Help", "#", "1", "L"]
+          ["add10d", "BACK", "", "1", "R"]
         );
 
         // Append the Setup and Sources option to the right side menu
         if (typeof disableSetup === "undefined" || !disableSetup) {
           aURL.push(
-            ["ff9100", "Setup", "#", "1", "R"]
+             
           )
         }
 
         aURL.push(
-          ["0dd1a7", "Sources", "#", "1", "R"]
+           
         );
 
         // Append the Update option to the right side menu if needed

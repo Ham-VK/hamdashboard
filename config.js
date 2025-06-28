@@ -45,10 +45,6 @@ var aIMG = [
     "https://www.sws.bom.gov.au/Images/HF%20Systems/Australasia/HAP%20Charts/Melbourne.gif",
   ],
   [
-    "HF Propagation",
-    "https://www.hamqsl.com/solar101vhf.php",
-  ],
-  [
     "10m",
     "https://img.propagation.dr2w.de/australia/10M/dr2w_animation_10M.gif",
   ],
@@ -59,6 +55,10 @@ var aIMG = [
   [
      "20m", 
      "https://img.propagation.dr2w.de/australia/20M/dr2w_animation_20M.gif",
+  ],
+  [
+    "HF Propagation",
+    "https://www.hamqsl.com/solar101vhf.php",
   ],
   [
     "NOAA D-RAP",

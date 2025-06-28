@@ -45,22 +45,6 @@ var aIMG = [
     "https://www.sws.bom.gov.au/Images/HF%20Systems/Australasia/HAP%20Charts/Melbourne.gif",
   ],
   [
-    "NOAA D-RAP",
-    "https://services.swpc.noaa.gov/images/animations/d-rap/global/d-rap/latest.png",
-  ],
-  [    
-    "Solar Wind Prediction",
-    "https://services.swpc.noaa.gov/images/animations/enlil/latest.jpg",
-  ],
-  [
-    "Solar Wind ACE MAG",
-    "https://services.swpc.noaa.gov/images/ace-mag-swepam-24-hour.gif",
-  ],
-  [
-    "SYNOPTIC",
-    "https://data.weatherzone.com.au/map-builder/synoptic/au/synoptic-au-1280x720.jpg",
-  ],
-  [
     "HF Propagation",
     "https://www.hamqsl.com/solar101vhf.php",
   ],
@@ -75,6 +59,22 @@ var aIMG = [
   [
      "20m", 
      "https://img.propagation.dr2w.de/australia/20M/dr2w_animation_20M.gif",
+  ],
+  [
+    "NOAA D-RAP",
+    "https://services.swpc.noaa.gov/images/animations/d-rap/global/d-rap/latest.png",
+  ],
+  [    
+    "Solar Wind Prediction",
+    "https://services.swpc.noaa.gov/images/animations/enlil/latest.jpg",
+  ],
+  [
+    "Solar Wind ACE MAG",
+    "https://services.swpc.noaa.gov/images/ace-mag-swepam-24-hour.gif",
+  ],
+  [
+    "SYNOPTIC",
+    "https://data.weatherzone.com.au/map-builder/synoptic/au/synoptic-au-1280x720.jpg",
   ],
 ];
 
